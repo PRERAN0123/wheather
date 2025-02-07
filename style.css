@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.gridbox{
+    text-align: center;
+    display: grid;
+    grid-template-rows: 10vh 80vh 10vh;
+}
+.main{
+    display: grid;
+    grid-template-columns: 15vw 70vw 15vw;
+}
+

@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.gridbox{
+    display: grid;
+    grid-template-rows: 10vh 80vh 10vh;
+    grid-auto-flow: column;
+    grid-template-areas:
+    "header header haeder"
+    "nav article aside"
+    "footer footer footer";
+}
